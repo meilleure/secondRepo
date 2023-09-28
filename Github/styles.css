@@ -1,0 +1,108 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        
+        }
+        
+
+.container{
+        margin-top: 5px;
+        text-align: center;
+        flex-wrap: wrap;
+        top: 1000px;
+        height: 5px;
+        padding: 10px 10%;
+
+     }
+
+ .para{
+
+        margin-top: 150px;
+     }
+     
+ .title{
+
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 60px;
+     
+     }
+
+
+.btn{
+
+    display: block;
+    padding: 7px 15px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 6px;
+    color: white;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+
+.text-center{
+
+    margin-top: 5px;
+    font-size: 60px;
+
+}
+ .button{
+
+    background-color: green;
+    font-size: 18px;
+    padding: 10px 150px;
+    margin-top: 20px;
+    color: white;
+
+ }
+
+ #reselect-button{
+  background-color: rgb(39, 165, 154);
+ }
+
+form input{
+padding-bottom:10px;
+padding-top:10px;
+margin-top: 20px;
+width: 100%;
+padding: 15px;
+margin: 15px 0;
+
+ }
+
+
+ @media only screen and (max-width: 600px){
+
+    .title{
+
+        margin-top: 1%;
+        font-size: 16px;
+    }
+
+    .para{
+
+      margin-top: 1%;
+        font-size: 16px;
+
+    }
+
+    #part{
+    margin-top: 1%;
+    font-size: 16px;
+    
+    }
+    #parts{
+        margin-top: 20%;
+        font-size: 16px;
+    }
+    #results{
+        margin-top: 1%;
+        font-size: 16px;
+    }
+
+}
